@@ -12,25 +12,10 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "subtitle": {
-      "type": "string"
-    },
-    "heading": {
-      "type": "string"
-    },
-    "btnText": {
-      "type": "string"
-    },
-    "btnLink": {
-      "type": "string"
-    },
-    "image": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images"
-      ]
+    "slidesItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "banner-slides-item.banner-slides-item"
     }
   }
 }

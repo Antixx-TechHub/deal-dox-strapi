@@ -12,13 +12,44 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "logo": {
+    "image": {
       "type": "media",
       "multiple": false,
-      "required": true,
+      "required": false,
       "allowedTypes": [
         "images"
       ]
+    },
+    "desc": {
+      "type": "string",
+      "default": "Lorem ipsum dolor sit amet consetetur sadi scing elitr sed diam nonumy."
+    },
+    "socials": {
+      "type": "component",
+      "repeatable": true,
+      "component": "footer-social.footer-social"
+    },
+    "titleOne": {
+      "type": "string",
+      "default": "Links"
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "footer-quick-links.footer-quick-links"
+    },
+    "titleTwo": {
+      "type": "string",
+      "default": "Pages"
+    },
+    "pages": {
+      "type": "component",
+      "repeatable": true,
+      "component": "footer-quick-links.footer-quick-links"
+    },
+    "titleThree": {
+      "type": "string",
+      "default": "Subscribe Newsletter"
     }
   }
 }

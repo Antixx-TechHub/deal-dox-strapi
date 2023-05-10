@@ -12,16 +12,26 @@
   },
   "pluginOptions": {},
   "attributes": {
+    "bgText": {
+      "type": "string",
+      "default": "TEAM"
+    },
     "subtitle": {
-      "type": "string"
+      "type": "string",
+      "default": "TEAM MEMBER"
     },
     "heading": {
-      "type": "string"
+      "type": "string",
+      "default": "Our Expert IT Consultants"
+    },
+    "desc": {
+      "type": "string",
+      "default": "We are leading technology solutions providing company all over the world doing over 40 years lorem ipsum dolor sit amet."
     },
     "singleTeam": {
       "type": "component",
       "repeatable": true,
-      "component": "single-team.single-team"
+      "component": "team-card.team-card"
     }
   }
 }

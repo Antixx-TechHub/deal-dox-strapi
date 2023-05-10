@@ -1,13 +1,13 @@
 module.exports = ({ env }) => ({
-  // Update your postgres credentials here
   connection: {
+    // Update your postgres credentials here
     client: "postgres",
     connection: {
-      host: env("DATABASE_HOST", "containers-us-west-205.railway.app"),
-      port: env.int("DATABASE_PORT", 6369),
-      database: env("DATABASE_NAME", "railway"),
+      host: env("DATABASE_HOST", "containers-us-west-29.railway.app"),
+      port: env.int("DATABASE_PORT", 6633),
+      database: env("DATABASE_NAME", "koze"),
       user: env("DATABASE_USERNAME", "postgres"),
-      password: env("DATABASE_PASSWORD", "WqEePv1ejjgE3k2xIFHK"),
+      password: env("DATABASE_PASSWORD", "1WLOa1TKV0ykghmQUiW9"),
       ssl: env.bool("DATABASE_SSL", false),
     },
   },

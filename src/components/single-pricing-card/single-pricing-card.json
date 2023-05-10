@@ -2,7 +2,7 @@
   "collectionName": "components_single_pricing_card_single_pricing_cards",
   "info": {
     "displayName": "Single-Pricing-Card",
-    "icon": "angle-double-right",
+    "icon": "arrow-left",
     "description": ""
   },
   "options": {},
@@ -10,19 +10,28 @@
     "title": {
       "type": "string"
     },
-    "desc": {
-      "type": "string"
-    },
     "price": {
       "type": "string"
     },
-    "period": {
+    "month": {
       "type": "string"
     },
-    "pricingFeatures": {
+    "desc": {
+      "type": "string",
+      "default": "Lorem ipsum dolor sit amet consetetur sadi scing elitr sed diam nonumy eirmod."
+    },
+    "btnLink": {
+      "type": "string",
+      "default": "/pricing"
+    },
+    "btnText": {
+      "type": "string",
+      "default": "Choose Plan"
+    },
+    "lists": {
       "type": "component",
       "repeatable": true,
-      "component": "pricing-features.pricing-features"
+      "component": "pricing-list.pricing-list"
     }
   }
 }

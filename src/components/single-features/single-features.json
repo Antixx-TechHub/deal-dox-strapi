@@ -2,23 +2,31 @@
   "collectionName": "components_single_features_single_features",
   "info": {
     "displayName": "Single-Features",
-    "icon": "angle-double-right"
+    "icon": "angle-down"
   },
   "options": {},
   "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
     "title": {
       "type": "string"
     },
-    "icon": {
-      "type": "string"
-    },
-    "class": {
-      "type": "string"
-    },
-    "shortDesc": {
+    "desc": {
       "type": "string",
-      "default": "Most probably the best dashboard design for your business you can try.",
-      "required": false
+      "default": "Lorem ipsum dolor sit amet consetetur sadipscing elitr"
+    },
+    "btnText": {
+      "type": "string",
+      "default": "View More"
+    },
+    "btnLink": {
+      "type": "string",
+      "default": "/services-details"
     }
   }
 }

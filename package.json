@@ -1,6 +1,5 @@
-<<<<<<< HEAD
 {
-  "name": "dealdox-api",
+  "name": "jexa-api",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -30,6 +29,3 @@
   },
   "license": "MIT"
 }
-=======
-
->>>>>>> 1b144998a668c52d99f321fdace7a2619c2dff66

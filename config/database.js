@@ -5,7 +5,7 @@ module.exports = ({ env }) => ({
     connection: {
       host: env("DATABASE_HOST", "containers-us-west-29.railway.app"),
       port: env.int("DATABASE_PORT", 6633),
-      database: env("DATABASE_NAME", "koze"),
+      database: env("DATABASE_NAME", "dealdox"),
       user: env("DATABASE_USERNAME", "postgres"),
       password: env("DATABASE_PASSWORD", "1WLOa1TKV0ykghmQUiW9"),
       ssl: env.bool("DATABASE_SSL", false),

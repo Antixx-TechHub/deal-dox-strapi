@@ -4,8 +4,7 @@
   "info": {
     "singularName": "bannerhomethree",
     "pluralName": "bannerhomethrees",
-    "displayName": "Banner Home Three",
-    "description": ""
+    "displayName": "Banner Home Three"
   },
   "options": {
     "draftAndPublish": true
@@ -27,13 +26,19 @@
     "btnLink": {
       "type": "string"
     },
-    "image": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
+    "img1": {
       "allowedTypes": [
         "images"
-      ]
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "img2": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

@@ -2,26 +2,16 @@
   "collectionName": "components_partner_images_partner_images",
   "info": {
     "displayName": "Partner-Images",
-    "icon": "arrow-circle-right",
-    "description": ""
+    "icon": "angle-double-right"
   },
   "options": {},
   "attributes": {
     "image": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
       "allowedTypes": [
         "images"
-      ]
-    },
-    "imageHover": {
+      ],
       "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images"
-      ]
+      "multiple": false
     }
   }
 }

@@ -12,7 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "featuresCard": {
+    "singleFeatures": {
       "type": "component",
       "repeatable": true,
       "component": "single-features.single-features"

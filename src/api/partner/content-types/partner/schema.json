@@ -12,7 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "imageList": {
+    "partnerSlides": {
       "type": "component",
       "repeatable": true,
       "component": "partner-images.partner-images"
